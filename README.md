@@ -29,7 +29,43 @@ This project is a Selenium v4 Test Automation Framework designed for web applica
 **Configurable test execution** using config.properties
 
 **🏗️ Project Structure**
-![Uploading image.png…]()
+
+YourProject/
+
+│── src/
+
+│   ├── main/
+
+│   │   ├── java/
+
+│   │   │   ├── base/           # Base classes for WebDriver setup
+
+│   │   │   ├── factory/        # Driver factory for WebDriver initialization
+
+│   │   │   ├── pages/          # Page Object Model classes
+
+│   │   │   ├── utils/          # Utility classes for common functions
+
+│   │   ├── resources/
+
+│   │       ├── config/
+
+│   │           ├── config.properties  ✅ (Configuration settings)
+
+│── src/
+
+│   ├── test/
+
+│   │   ├── java/
+
+│   │   │   ├── tests/          # Test classes with TestNG annotations
+
+│── test-output/                # TestNG reports output
+
+│── pom.xml                     # Maven build file
+
+│── README.md                   # Project documentation
+
 
 
 🔧** Setup Instructions**
